@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.27)
+project(SnakeGame)
+set(CMAKE_BUILD_TYPE Release)
+add_executable(SnakeGame WIN32 snake_game.cpp)
+target_link_libraries(SnakeGame PRIVATE raylib Winmm)
+add_subdirectory(raylib)
