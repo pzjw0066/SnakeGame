@@ -6,6 +6,7 @@ A simple game by controlling a snake.
 Windows and MinGW64 only!
 open "powershell" and enter the directory.
 Then enter
+
 `New-Item build -Type directory`
 
 `Set-Location build`
